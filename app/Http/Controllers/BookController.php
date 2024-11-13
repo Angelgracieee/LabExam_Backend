@@ -52,7 +52,7 @@ class BookController
         ]);
 
         return response()->json([
-            'message' => `The book is successfully added`,
+            'message' => 'Book added successfully!',
             'data' => new BookResource($book)
         ], 200);
         
